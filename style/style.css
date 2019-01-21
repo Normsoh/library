@@ -1,0 +1,121 @@
+body{
+	font: 15px/1.5 Arial, Helverica, sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color:#f4f4f4;
+}
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+/* header */
+header{
+	background: black;
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: yellow 3px solid;
+}
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+header #branding{
+	float:left;
+
+}
+header #branding h1{
+	margin: 0;
+}
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+header .highlight, header .current a{
+	color: #e8491d;
+	font-weight: bold;
+}
+header a:hover{
+	color:#cccccc;
+	font-weight: bold;
+}
+/* showcase*/
+#showcase{
+	min-height: 615px;
+	/*background:url("image/7.jpg") no-repeat 0 -400px !important;*/
+	text-align: center;
+	color: #ffffff;
+}
+#showcase img{
+	width: 100%;
+}
+#bg{
+	margin-top: -500px;
+}
+#showcase h1{
+	margin-top: 100px;
+	font-size: 55px;
+	margin-bottom: 10px;
+}
+#showcase p{
+	font-size: 40px;
+}
+#newsletter{
+	padding: 20px;
+	color: #ffffff;
+	background:#35424a;
+}
+/* boxes*/
+#box1 h5{
+	font-size: 15px;
+}
+#boxes1 h4{
+	font-size: 15px;
+}
+#boxes p{
+	text-align: center;
+	color: black;
+	font-size: 40px;
+}
+#boxes{
+	margin-top: 20px;
+}
+#boxes #box1{
+	float: left;
+	width: 300px;
+	padding: 0px;
+	margin:2px;
+	height: 350px;
+	border: 0px solid red;
+
+}
+#boxes #box1 img{
+	margin:0px;
+	width: 65%;
+}
+
+#boxes1 #box{
+	float: left;
+	width: 300px;
+	padding: 0px;
+	margin:2px;
+	height: 500px;
+	border: 0px solid red;
+
+}
+#boxes1 #box img{
+	margin:0px;
+}
+
+footer{
+	padding: 50px;
+	margin-top: 25px;
+	color: #ffffff;
+	background-color: black;
+	text-align: center;
+}
+#news{
+	float: right;
+}
